@@ -1,0 +1,85 @@
+.tlacka {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+#nadpisak {
+font-size: 2rem;
+margin: auto;
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+.flex-container {
+    display: flex;
+    justify-content: start;
+    height: max-content;
+    flex-wrap: wrap;
+}
+.item {
+    justify-self: end;
+}
+.flex-containerin {
+margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+.provaz {
+margin-right: 30%;
+}
+.main-container {
+    height: 36rem;
+    min-height: fit-content;
+}
+.btn {
+    width: 12rem;
+    height: 5rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+
+.gradient-background {
+    background: linear-gradient(300deg, black, gray, red);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .spodnak {
+    background-color: rgb(103, 0, 0);
+    margin-bottom: 0;
+    padding: 1rem;
+  }
+  .bod {
+    margin-left: 10%;
+  }
+
+
+@media (max-width: 710px) {
+    .bod {
+        margin-left: 1rem;
+    }
+
+    
+}
+.ctverec {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    height: 10px;
+    background-color: red;
+}
