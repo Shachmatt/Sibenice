@@ -108,6 +108,7 @@ display: none;
     display: flex;
     flex-direction: column;
 margin-top: 5rem;
+    flex-wrap: wrap;
 }
 #napo {
     margin-left: 1rem;
