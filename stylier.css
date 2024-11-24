@@ -91,6 +91,15 @@ display: none;
     font-style: normal;
 }
 
+@media (min-height: 800px) and (min-width: 800px) {
+    .konec {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        }
+    
+}
+
 #slovak {
     font-size: 5rem;
     font-family: "Exo 2", sans-serif;
@@ -98,7 +107,7 @@ display: none;
     font-weight: 400;
     font-style: normal;
     margin-top: 50%;
-    margin-left: 1.7rem
+    margin-left: 3rem;
 }
 .flex-container {
     display: flex;
@@ -109,7 +118,6 @@ display: none;
     display: flex;
     flex-direction: column;
 margin-top: 5rem;
-    flex-wrap: wrap;
 }
 #napo {
     margin-left: 1rem;
@@ -183,7 +191,6 @@ text-decoration: none;
 @media (max-width: 750px) {
     .flex-containerin {
         flex-direction: row;
-        flex-wrap: wrap;
     }
 }
 
